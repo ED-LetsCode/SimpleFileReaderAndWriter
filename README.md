@@ -1,1 +1,4 @@
-# Simple filereader and filewriter with the .NET Streamreader and Streamwriter class
+# Simple filereader and filewriter 
+with the .NET classes
+-Streamreader  
+-Streamwriter
