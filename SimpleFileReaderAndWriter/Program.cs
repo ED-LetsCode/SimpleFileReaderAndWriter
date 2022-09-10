@@ -12,9 +12,10 @@ namespace SimpleFileReaderAndWriter
         static List<string> carBrands = new List<string>();
         static string path = Directory.GetCurrentDirectory().Replace("\\bin\\Debug", "");
         static string newFilePath;
+
         static void Main(string[] args)
         {
-            ReadFile();
+            ReadFileAndAddToList();
             SortAndCreateNewFile();
 
             Console.WriteLine($"New file created PATH: {newFilePath} \n");
@@ -25,7 +26,7 @@ namespace SimpleFileReaderAndWriter
         /// <summary>
         /// Reads file and adds it to the list
         /// </summary>
-        static void ReadFile()
+        static void ReadFileAndAddToList()
         {
             try
             {
